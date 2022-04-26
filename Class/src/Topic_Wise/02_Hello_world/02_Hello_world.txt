@@ -1,0 +1,25 @@
+*) Four way to add Vue:
+    1) CDN Package
+        -> incorporate Vue into a really old legacy code base or quickly prototype
+        -> <script src="https://unpkg.com/vue@next"></script>
+    2) npm:
+        -> npm install vue
+        ->  Preferred approach over CDN when build large scale application with Vue.
+    3) Vue CLI -> implement this approach for this tutorial
+        -> Vue provides and official CLI for quickly scaffolding single page applications
+        -> npm install -g @vue/cli
+        -> vue create <project-name>
+    4) Vite
+        -> an opinionated Web deve build tool that serves your code via native ES Module imports
+        -> Your code is served at a lightning fast speed and you get nearly instant hot module replacement
+        -> npm init vite-app <project_name>
+    
+*) Setup:
+    -> run terminal as admin
+        -> npm install -g @vue/cli
+        -> yarn global add @vue/cli
+    -> vue --version
+    -> vue create <project-name>
+    -> cd <project_name>
+    -> yarn serve
+    -> npm run serve
