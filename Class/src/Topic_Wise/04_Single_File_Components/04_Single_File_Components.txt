@@ -1,0 +1,13 @@
+*) .Vue File?
+    -> A *.vue file is a custom file format that uses HTMl-like syntax to describe a portion of the UI
+    -> Each *.vue file consists of three types of top-level language blocks
+        1) <template></template>
+            -> The template bloc is like the HTMl of you UI
+        2) <script></script>
+            -> The script Bloc is where logic and functionality of you app can be maintained
+        3) <style></style>
+            -> The Style/CSS block is where you specify the styles related to the mark up in the template block 
+
+*) Components:
+    -> A .vue file is called single file component(SFC)
+    -> As a beginner, there is a lot to learn without having to worry about the component architecture
