@@ -1,0 +1,3 @@
+*) Tow way to bind text:
+    -> Mustache syntax
+    -> 'v-' directive

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Application from "./Topic_Wise/04_Single_File_Components/App.vue";
+import Application from "./Topic_Wise/05_Binding_Text/App.vue";
 
 export default {
   name: "App",
