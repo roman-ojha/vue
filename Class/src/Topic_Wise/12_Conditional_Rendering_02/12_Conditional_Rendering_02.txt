@@ -1,0 +1,2 @@
+*) v-show (directive):
+    -> vue provide another directive to show conditional element
