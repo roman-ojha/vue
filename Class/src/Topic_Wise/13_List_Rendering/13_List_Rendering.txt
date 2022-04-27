@@ -1,0 +1,6 @@
+-> to render list item we can use 'v-for' directive:
+    -> Array of Strings
+    -> Array of Objects
+    -> Array of arrays
+    -> Block of HTML Element
+    -> Object key value pairs
