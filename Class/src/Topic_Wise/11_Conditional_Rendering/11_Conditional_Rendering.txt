@@ -1,0 +1,6 @@
+=> When you are building the application you my often need to show or hide some html based on certain condition
+    -> to condition render certain element in vue we have for directive:
+        1) v-if
+        2) v-else
+        3) v-else-if
+        4) v-show

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Application from "./Topic_Wise/10_v-bind_Shorthand/App.vue";
+import Application from "./Topic_Wise/11_Conditional_Rendering/App.vue";
 
 export default {
   name: "App",
