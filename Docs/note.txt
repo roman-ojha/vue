@@ -1,0 +1,9 @@
+-> npm run serve -- --port <port> (to run vue in specific port)
+
+
+*) To change the default port of vue server config in 'vue.config.js:
+    -> module.exports ={
+        devServer: {
+            port: 3000,
+        },
+    }
