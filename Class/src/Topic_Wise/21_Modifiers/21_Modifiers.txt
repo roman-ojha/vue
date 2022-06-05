@@ -1,0 +1,4 @@
+*) Modifiers:
+    -> A suffix you can add to either v-on directive or the v-model directive to add some functionality inline within the template
+    -> Helps you write cleaner code
+
