@@ -1,0 +1,5 @@
+*) v-once directive:
+    -> Render the corresponding HTML element only once. On subsequent re-renders, the element is treated as static content as skipped.
+
+*) v-pre directive:
+    -> Skips Compilation for the corresponding element
