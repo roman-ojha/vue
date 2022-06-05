@@ -1,0 +1,13 @@
+Form Handling:
+    -> Capture user inputs
+    -> inputs
+    -> Textarea
+    -> Single select dropdown control
+    -> Multi select control
+    -> Checkbox
+    -> Checkbox group
+    -> Radio
+    -> Submit form data
+
+-> Vue Provide 'v-model' directive for form handling which provide two way binding
+-> Two way binding refers to binding from the template to the data and data back to the template
