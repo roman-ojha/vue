@@ -1,0 +1,3 @@
+*) Components:
+    -> Vue follows a component base architecture
+    -> This lets you break down you application in small encapsulated parts which can then be composed to make more complex user interfaces
