@@ -1,0 +1,7 @@
+=> If you want pass value or to send value from root component to the child component in component tree and want to get those value in any component not only in the first level of the component tree but all the child component from that specific component that we have pass on in that case we have specify that props value in every child component to get that value to the leaf node component
+-> what if we could directly make the data available to the required component without having to manually drill down the props through every level of the component tree this is where 'Provide' and 'Inject' api will help us to achieve our goal
+*) Provide & Inject APIs
+    -> This two APIs provide a way to pass data through the component tree without having to pass down props manually at every level
+    -> Two steps to make use of Provide/Inject
+        1) Provide the value in the App component
+        2) Inject the value in the child component
