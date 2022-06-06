@@ -1,9 +1,13 @@
 <template>
-  <Article title="Article Title" :likes="50" :isPublished="true" />
-  <!-- here we can see that 'likes' is of type number so to send likes as number we have to use v-bind directive -->
+  <!-- sometimes we might need to pass in regular html attributes like an id attribute -->
+  <Article
+    id="my-article"
+    title="Article Title"
+    :likes="50"
+    :isPublished="true"
+  />
 </template>
 <script>
-// import Greet from "./components/Greet.vue";
 import Article from "./components/Article.vue";
 export default {
   name: "App",
