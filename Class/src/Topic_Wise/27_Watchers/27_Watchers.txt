@@ -1,0 +1,19 @@
+*) Watchers:
+    -> Allow you to watch any data or computed property and execute some code in response to change in the value
+    -> Example:
+        *> Implement a volume tracker
+            -> See the current volume level
+            -> Increase or decrease the volume level
+
+*) Watcher vs Computed Properties:
+    Q) Can we use watcher instead fo computed properties?
+        -> Yes. Watcher simply provide a more generic way to react to data changes
+        -> However, it is not recommended to mimic a computed property as a watcher
+
+    -> Use computed properties when:
+        1) You need to compose new data from existing data sources
+        2) You need to reduce the length of a variable
+    -> Use watcher when:
+        1) You have to check if a property have changed to favorable value to know if you're ready to perform an action
+        2) You have to call and API in response to change in application data
+        3) You have to apply transition
