@@ -1,0 +1,2 @@
+*) Custom Components Events
+    -> Sometime you might want to communicate from child component to parent component
