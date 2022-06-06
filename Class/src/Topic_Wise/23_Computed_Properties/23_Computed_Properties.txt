@@ -1,0 +1,9 @@
+-> Way to display data in the UI:
+    1) Static HTML
+    2) Text interpolation
+    3) Simple expressions
+    4) Methods
+    5) Computed Properties
+        -> Properties that can be bounded to the template like data properties
+        -> They are used for composing new data from existing sources
+        -> They are highly performant as they are cached calculations which only update when their dependencies change
