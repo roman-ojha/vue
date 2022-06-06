@@ -3,24 +3,8 @@
   <h3>Current volume - {{ volume }}</h3>
 
   <div>
-    <button
-      @click="
-        if (volume < 20) {
-          volume += 2;
-        }
-      "
-    >
-      Increase
-    </button>
-    <button
-      @click="
-        if (volume > 0) {
-          volume -= 2;
-        }
-      "
-    >
-      Decrease
-    </button>
+    <button @click="volume += 2">Increase</button>
+    <button @click="volume -= 2">Decrease</button>
   </div>
 
   <!-- now we want to add a functionality where if the user increase volume above 16 then we want to alert user for that watcher helps us with this requirement -->
