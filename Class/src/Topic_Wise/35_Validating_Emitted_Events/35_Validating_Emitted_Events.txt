@@ -1,0 +1,2 @@
+*) Validating Emitted Events:
+    -> Same as Validating props passed into a child component, it is also also possible to validate custom event that are emitted from the child component
