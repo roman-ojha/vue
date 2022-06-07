@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <!-- 
+    -> yarn add axios
+ -->
+  <PostList />
 </template>
 
 <script>
-import Application from "./Topic_Wise/45_HTTP_GET_Request/App.vue";
-
 export default {
   name: "App",
-  components: {
-    Application,
+  components: {},
+  data() {
+    return {};
   },
 };
 </script>

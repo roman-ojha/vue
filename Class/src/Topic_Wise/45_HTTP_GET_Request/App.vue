@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <PostList />
 </template>
 
 <script>
-import Application from "./Topic_Wise/45_HTTP_GET_Request/App.vue";
-
+import PostList from "./components/PostList.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    PostList,
+  },
+  data() {
+    return {};
   },
 };
 </script>
