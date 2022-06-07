@@ -1,0 +1,8 @@
+*) Slots:
+    -> Props allow you to re-use components by passing in different data
+    -> Although props are great for re-usability, we do have a strict parent-child relationship
+    -> The child will always be in control of the HTML content and the parent can only pass in different data values
+    -> Slots on the other hand are more powerful
+    -> They allow you to re-user a components
+    -> They allow the parent component to control the content inside the child component
+    -> Slots allow a parent component to embed any content in a child component include HTML elements
