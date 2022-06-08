@@ -1,14 +1,18 @@
 <template>
-  <Application />
+  <div>
+    <CreatePostVue />
+  </div>
 </template>
 
 <script>
-import Application from "./Topic_Wise/46_HTTP_POST_Request/App.vue";
-
+import CreatePostVue from "./components/CreatePost.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    CreatePostVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
