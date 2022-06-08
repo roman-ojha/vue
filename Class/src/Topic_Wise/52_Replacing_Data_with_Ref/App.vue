@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <DataVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/52_Replacing_Data_with_Ref/App.vue";
-
+import DataVue from "./components/Data.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    DataVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
