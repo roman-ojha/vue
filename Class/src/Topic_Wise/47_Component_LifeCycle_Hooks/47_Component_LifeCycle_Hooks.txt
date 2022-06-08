@@ -1,0 +1,49 @@
+*) Component Lifecycle Hooks:
+    -> It is about different Phases component goes through a vue application
+    -> A Vue component can go through 4 phases
+        1. Creation
+        2. Mounting
+        3. Updating
+        4. Unmounting
+    -> Lifecycle hooks are methods that allow us to hook into or tap into these different phases in the lifecycle of a component and execute some code
+
+*) List of Lifecycle Hooks:
+    ->  Phase 1: Creation
+            -> in this phase component is about to be created
+            -> beforeCreate()
+                -> all you data properties, component properties, methods, and watcher are not processed by the component in the beforeCreate() method
+            -> created()
+                -> but they are processed and ready to be use in created method
+    ->   Phase 2: Mounting:
+            -> in this phase component template or the html are mounted into the dom which you see in the browser
+                -> this should be used if dom of you component need to be modified immediately before and after the component is initially rendered
+            -> beforeMount()
+                -> before rendered
+            -> mounted()
+                -> after rendered
+    -> Phase 3: Updating:
+            -> this phase is triggered when a reactive property such as data or computed property used by a component changes or the component re-rendered
+            -> beforeUpdate()
+                -> this will get called when data changes but before the dom is patched
+                -> this could be use to access the existing dom before and update and remove event listeners on element that might be removed after the update
+            -> updated()
+                -> updated called after the patched had been applied to the dom
+    -> Phase 4: Unmounting:
+            -> this phase is triggered when you component is about to be removed from the dom
+            -> beforeUnmount()
+                -> here you can perform some action because you vue component is still fully functional, you can perform some cleaning up like canceling network requests, removing manually added event listeners, cancelling subscriptions and also invalidating timers from set timeout or set interval
+            -> unmounted()
+    -> Miscellaneous:
+        -> activated()
+            -> related to keep alive component used when working with dynamic components
+            -> this get called when keep alive component is activated
+        -> deactivated()
+            -> related to keep alive component used when working with dynamic components
+            -> this get called when keep alive component is deactivated
+        -> errorCaptured()
+            -> this hook get called when an error from and descendant component is captured
+        -> renderTracked()
+            -> this is useful for debugging purposes 
+            -> you can identify what cause you component to rendered
+        -> renderTriggered()
+            -> this is useful for debugging purposes 
