@@ -1,11 +1,14 @@
 <template>
-  <div></div>
+  <ParentVue />
 </template>
 
 <script>
+import ParentVue from "./components/Parent.vue";
 export default {
   name: "App",
-  components: {},
+  components: {
+    ParentVue,
+  },
   data() {
     return {};
   },
