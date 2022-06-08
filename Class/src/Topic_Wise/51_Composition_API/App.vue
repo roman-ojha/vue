@@ -1,14 +1,13 @@
 <template>
-  <Application />
+  <div></div>
 </template>
 
 <script>
-import Application from "./Topic_Wise/51_Composition_API/App.vue";
-
 export default {
   name: "App",
-  components: {
-    Application,
+  components: {},
+  data() {
+    return {};
   },
 };
 </script>

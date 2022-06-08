@@ -1,0 +1,12 @@
+*) Composition API:
+    -> What is the Composition API?
+        -> The Composition API is a feature in Vue 3 which gives us another way to write our components
+        -> More specifically, the script bloc in the component
+        -> Options API -data(), computed properties, methods, watcher & lifecycle hooks
+        -> What we've learned so far is the Options API which is only way to build components in Vue
+        -> The other way is to use the composition API
+    -> Why Composition API?
+        1> Vue projects become hard to manage as they grew in size and complexity
+            -> Logic isn't really grouped by feature, which can make it hard to read through a large and complex component file.
+        2> Re-using logic across components become difficult
+    -> Composition API allows us to encapsulate one piece of functionality so that you can use it in different components throughout the application
