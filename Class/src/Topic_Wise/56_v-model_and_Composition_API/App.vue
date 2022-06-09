@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <VModelVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/56_v-model_and_Composition_API/App.vue";
-
+import VModelVue from "./components/VModel.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    VModelVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
