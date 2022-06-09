@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <ComputedVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/57_Replacing_Computed_Properties/App.vue";
-
+import ComputedVue from "./components/Computed.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    ComputedVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
