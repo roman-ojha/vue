@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <WatchVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/59_Replacing_Watchers_with_reactive/App.vue";
-
+import WatchVue from "./components/Watch.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    WatchVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
