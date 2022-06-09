@@ -1,14 +1,19 @@
 <template>
-  <Application />
+  <DemoOneVue />
+  <DemoTwoVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/54_Reactivity_and_toRefs/App.vue";
-
+import DemoOneVue from "./components/DemoOne.vue";
+import DemoTwoVue from "./components/DemoTwo.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    DemoOneVue,
+    DemoTwoVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
