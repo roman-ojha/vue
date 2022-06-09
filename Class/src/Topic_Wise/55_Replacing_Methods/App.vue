@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <MethodsVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/55_Replacing_Methods/App.vue";
-
+import MethodsVue from "./components/Methods.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    MethodsVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
