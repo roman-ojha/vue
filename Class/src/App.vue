@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Application from "./Topic_Wise/60_Replacing_Provide_and_Inject/App.vue";
+import Application from "./Topic_Wise/61_Replacing_Lifecycle_Hooks/App.vue";
 
 export default {
   name: "App",
