@@ -6,9 +6,8 @@
 import { computed } from "vue";
 export default {
   name: "PersonGreeting",
-  //   Props Using Options API
+
   props: ["firstName", "lastName"],
-  emits: ["callHeroes"],
   setup(props) {
     //   setup method receive an props as argument
 
