@@ -1,14 +1,16 @@
 <template>
-  <Application />
+  <ProvideInject />
 </template>
 
 <script>
-import Application from "./Topic_Wise/60_Replacing_Provide_and_Inject/App.vue";
-
+import ProvideInject from "./components/ProvideInject.vue";
 export default {
   name: "App",
   components: {
-    Application,
+    ProvideInject,
+  },
+  data() {
+    return {};
   },
 };
 </script>
