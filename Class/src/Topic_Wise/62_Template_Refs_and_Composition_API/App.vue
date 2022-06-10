@@ -1,14 +1,17 @@
 <template>
-  <Application />
+  <TemplateRefVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/62_Template_Refs_and_Composition_API/App.vue";
-
+import TemplateRefVue from "./components/TemplateRef.vue";
 export default {
   name: "App",
+  setup() {},
   components: {
-    Application,
+    TemplateRefVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
