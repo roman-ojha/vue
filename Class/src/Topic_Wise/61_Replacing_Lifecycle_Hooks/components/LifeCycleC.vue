@@ -14,6 +14,7 @@ import {
 export default {
   name: "LifecycleC",
   setup() {
+    // NOTE: 'beforeCreate' & 'created' is being replace by 'setup' methods
     onBeforeMount(() => {
       console.log("LifeCycleC onBeforeMount()");
     });
