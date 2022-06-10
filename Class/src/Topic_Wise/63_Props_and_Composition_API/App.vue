@@ -1,14 +1,17 @@
 <template>
-  <Application />
+  <PersonVue />
 </template>
 
 <script>
-import Application from "./Topic_Wise/63_Props_and_Composition_API/App.vue";
-
+import PersonVue from "./components/Person.vue";
 export default {
   name: "App",
+  setup() {},
   components: {
-    Application,
+    PersonVue,
+  },
+  data() {
+    return {};
   },
 };
 </script>
