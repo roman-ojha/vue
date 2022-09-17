@@ -1,3 +1,6 @@
 [submodule "Tutorial/01_Vue_Router"]
 	path = Tutorial/01_Vue_Router
 	url = https://github.com/Roman-Ojha/vue-router
+[submodule "Vuex"]
+	path = Vuex
+	url = git@github.com:roman-ojha/vuex-typescript.git
